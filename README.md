@@ -33,7 +33,7 @@ Charts and plots used to describe the data and results analysis include:
 - Pie charts
 - Boxplots
 - Line charts
-- Scatter plots (including overlay of linear line).
+- Scatter plots (including overlay of linear regression line).
 
 
 # References
