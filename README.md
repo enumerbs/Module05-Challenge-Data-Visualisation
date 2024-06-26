@@ -6,13 +6,35 @@ Matplotlib Challenge
 
 # Results
 
-TBA:
-- path1
-- path2
+Refer to the Jupyter Notebook, file: Pymaceuticals/pymaceuticals.ipynb.
 
 # Implementation notes
 
-TBA
+## Data cleansing
+
+Where a 'Mouse ID' and its corresponding tumour size measurement 'Timepoint' were repeated, such cases were removed from consideration for the remaining analysis (as otherwise the measurement result would be ambiguous).
+- A Pandas-based approach using grouping via the 'value_counts()' method was used to identify such cases (value counts greater than one indicating 'duplicates').
+- The 'Mouse ID' for any 'duplicate mouse' measurement could then be extracted from the grouping.
+- Refer to the Pandas references below for more information on both those implementation details.
+
+## Summary Statistics
+
+Statistics calculated for the tumor size measurement include:
+- Mean
+- Median
+- Variance
+- Standard Deviation
+- Standard Error of the Mean (SEM)
+
+## Data Visualisation
+
+Charts and plots used to describe the data and results analysis include:
+- Bar charts
+- Pie charts
+- Boxplots
+- Line charts
+- Scatter plots (including overlay of linear line).
+
 
 # References
 
